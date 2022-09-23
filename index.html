@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="en">
+ <html lang="zh-tw">
    <head>
        <meta charset="UTF-8" />
        <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -36,9 +36,9 @@
                 <h1>HeXxyZ</h1>
                 <div class="bio">
 				
-                  <div><h4>Nothing Comes Out As Planned</h4></div>
-                  <div>An ordinary Taiwanese student</div>
-				  <div>This is where I was supposed to put my short introduction, but I didn't know exactly what to write, so I decided to fill in the blanks with this meaningless string of words and then congratulate you for wasting a bunch of time reading it.</div>
+                  <div><h4>-Nothing Comes Out As Planned-</h4></div>
+                  <div>An ordinary Taiwanese student<br>一個來自台灣的普通學生</div>
+				  <h6 id="msg" style="color:rgb(255, 158, 158) ;"> </h6><a>[F5 to refresh]</a>
                 </div>
 				<!-- music player -->
 				<div class="w3-container w3-center w3-text-white w3-padding-32 w3-padding-large">
@@ -188,4 +188,26 @@
                 </div>
               </a>-->
    </body>
+   <script>
+    const msg = [
+        "No cross, no crown.<br>不經歷風雨，怎麼遇見彩虹。 ", 
+        "Sometime ever, sometime never.<br> 相聚有時，後會無期。 ",
+        'In the dull and boring world, there is also occasional luck. <br>枯燥無味的世界，總會有小確幸。',
+        'Treat yourself well. <br>善待你自己。',
+        'No fear of words, no fear of years.<br>不懼人言，不畏歲月。',
+        'Don’t let the past steal your present.<br> 只要開始，雖晚不遲。',
+        'Better late than never. <br>別讓過去悄悄偷走了你的當下。',
+        'Stars can’t shine without darkness.<br> 如果沒有黑暗，星星如何閃耀。',
+        'If you aim at the moon, even if you are lost, you will fall between the stars. <br>如果你瞄準月亮，即使迷失了，你仍會落在星河之間。',
+        'Actually I wanted to say on that day, shall we never get apart, OK? <br>其實，那天我想說的是，“我們永遠不要分開了好不好？”',
+        'Without you, my life don’t know how to describe.<br> 沒有你，我的生活不知道該怎樣去形容。',
+        'First I need your hand, then forever can begin.<br> 我需要牽著你的手，才能告訴你什麼是永遠',
+        'Happiness can be found even in the darkest of times.<br> 即使在最黑暗的日子裡，也能尋到幸福。',
+        'Forget others’ faults by remembering your own. <br>想想自己的錯，會忘卻別人的過。',
+        'Fading is true while flowering is past. <br>凋謝是真實的，盛開只是一種過去',
+        'I don’t know what to say, I’m just thinking of you a lot at this moment. <br>我不知道該說什麼，我只是突然在這一刻，很想你。',
+    ]
+    const randomMsg1 = msg[Math.floor(Math.random() * msg.length)];
+    document.getElementById("msg").innerHTML = randomMsg1
+</script>
  </html>
