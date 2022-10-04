@@ -20,7 +20,7 @@ const msg = [
     'Love is not only a sentiment but also an art.<br> 愛情不僅僅是感情，它也是藝術。',
     'Being with you is like walking on a very clear morning.<br> 和妳在一起就像在一個清爽的早晨漫步。',
     'You are everything when you are with me, and everything is you when you are not.<br> 跟妳在一起時，妳是一切，妳不在時，一切是妳！',
-    'If i could rearrange the alphabet, i’d put y and i together. <br>如果我能重新來排列字母，我要把y（妳）跟i（我）在一起。',
+    'If i could rearrange the alphabet, i’d put y and i together. <br>如果我能重新排列字母，我要把y（妳）跟i（我）放在一起。',
     'No words are necessary between two loving hearts.<br> 兩顆相愛的心之間不需要言語。',
     'Every day without you is like a book without pages.<br> 沒有妳的日子就像一本沒有書頁的書。',
 ]
