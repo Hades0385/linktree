@@ -5,11 +5,11 @@ const msg = [
     'Stars can’t shine without darkness.<br> 如果沒有黑暗，星星如何閃耀。',
     'If you aim at the moon, even if you are lost, you will fall between the stars. <br>如果你瞄準月亮，即使迷失了，你仍會落在星河之間。',
     'Without you, my life don’t know how to describe.<br> 沒有妳，我的生活不知道該怎樣去形容。',
-    'First I need your hand, then forever can begin.<br> 我需要牽著妳的手，才能告訴妳什麼是永遠',
+    'The darkness is no darkness with you. <br>有了妳，黑暗不再是黑暗。',
     'Happiness can be found even in the darkest of times.<br> 即使在最黑暗的日子裡，也能尋到幸福。',
     'Forget others’ faults by remembering your own. <br>想想自己的錯，會忘卻別人的過。',
     'Fading is true while flowering is past. <br>凋謝是真實的，盛開只是一種過去',
-    'I don’t know what to say, I’m just thinking of you a lot at this moment. <br>我不知道該說什麼，我只是突然在這一刻，很想妳。',
+    'I don’t know what to say, I’m just thinking of you a lot at this moment. <br>我不知道該說什麼，只是突然在這一刻，很想妳。',
     'To the world you may be just one person. To the person you may be the world.<br>對這世界來說，妳也許只是某個人；但對某個人來說，妳卻是全世界。',
     'I’ll think of you every step of the way.<br> 我會想妳，在漫漫長路的每一步。',
     'Passionate love is a quenchless thirst.<br> 熱烈的愛情是不可抑制的渴望。',
@@ -20,6 +20,8 @@ const msg = [
     'If i could rearrange the alphabet, i’d put y and i together. <br>如果我能重新排列字母，我要把y（妳）跟i（我）放在一起。',
     'No words are necessary between two loving hearts.<br> 兩顆相愛的心之間不需要言語。',
     'Every day without you is like a book without pages.<br> 沒有妳的日子就像一本沒有書頁的書。',
+	'I need you as I need the air to breathe.<br> 我需要妳，正如我需要呼吸空氣。',
+	
 ]
 const randomMsg1 = msg[Math.floor(Math.random() * msg.length)];
 document.getElementById("msg").innerHTML = randomMsg1
