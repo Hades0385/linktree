@@ -260,6 +260,11 @@ a.link:hover {
     box-shadow: 8px 8px 14px -8px #c13584;
 }
 
+.anonymous {
+    background-color: #ffffff;
+    box-shadow: 8px 8px 14px -8px #ffffff;
+}
+
 .LinkedIn {
     background-color: #1da1f2;
     box-shadow: 8px 8px 14px -8px #1da1f2;
