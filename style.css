@@ -74,6 +74,11 @@ a:hover {
     padding: 30px;
 }
 
+.info {
+	text-align: center;
+    padding: 30px;
+}
+
 .profile {
     margin-top: -60px;
 }
@@ -283,4 +288,4 @@ a.link:hover {
 .Github {
     background-color: #2b3137;
     box-shadow: 8px 8px 14px -8px #2b3137;
-}
+}family=Ubuntu:300);
