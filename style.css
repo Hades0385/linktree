@@ -31,7 +31,6 @@ textarea,
 ul {
     margin: 0;
     padding: 0;
-    filter: grayscale(1);
 }
 
 body {
