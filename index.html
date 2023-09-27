@@ -17,11 +17,11 @@
        <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
        <link rel="stylesheet" href="style.css" /> 
 	   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11">//打字效果</script> 
         <style>
 		
 			body {
-				background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65) 0%, rgba(37, 37, 37, 0.65) 100%), url(https://cdn.discordapp.com/attachments/972483073717465149/1112608787795296297/IMG_1529.jpg); /* The image used for background*/
+				background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65) 0%, rgba(37, 37, 37, 0.65) 100%), url(https://bing.img.run/rand.php); /* The image used for background*/
 				background-repeat: no-repeat; /* Do not repeat the image */
 				background-position: center; /* Center the image */
 				background-attachment: fixed;
@@ -42,7 +42,22 @@
                 <h1>1hex0xyz1</h1>
                 <div class="bio">
 				
-                  <div><h4>Nothing Comes Out As Planned</h4></div>
+                  <div><h4><warm id="typed3"></warm></h4></div>
+                  <script data-pjax>
+                    try {
+                      var typed3 = new Typed("#typed3", {
+                      strings: ['Nothing Comes Out As Planned','Nothing Worth A Shot','Failure is not terrible, what′s terrible is that you still believe in this sentence.'],//字符串
+                      startDelay: 0,
+                      typeSpeed: 100,
+                      backSpeed: 50,
+                      loop: true,
+                      showCursor: true,
+                      smartBackspace: true, 
+                      cursorChar: '_',
+                      });
+                    } catch (err) {
+                    }
+                  </script>
                   <h6></h6>
                   <div style="color: black;">
                   <div id="player" class="aplayer"></div>
@@ -96,14 +111,14 @@
                     </div>
                 </div>
                 <div>
-                    <h2>Twitter</h2>
+                    <h2>X(Twitter)</h2>
                     <div>hex_xyz</div>
                 </div>
                 <div class="arrow">
                     <i class="fas fa-arrow-right"></i>
                 </div>
               </a>
-
+				<div style=" position: fixed;bottom: 0;right: 0;">背景圖片由Bing提供</div>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
                 <script>
                 window.addEventListener('load', () => {
