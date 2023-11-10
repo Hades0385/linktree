@@ -43,6 +43,12 @@ body {
     background-color: #191b21;
     font-family: sans-serif;
     display: block;
+    /* background */
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65) 0%, rgba(37, 37, 37, 0.65) 100%), url(https://bing.img.run/rand.php); /* The image used for background*/
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-attachment: fixed;
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 a {
@@ -289,3 +295,10 @@ a.link:hover {
     background-color: #2b3137;
     box-shadow: 8px 8px 14px -8px #2b3137;
 }family=Ubuntu:300);
+
+.sendmsg {
+    text-align: center;
+    background-color: #48524d57;
+    padding: 30px;
+    margin-top: 25px;
+}

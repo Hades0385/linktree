@@ -1,27 +1,52 @@
-const msg = [
-    "Sometime ever, sometime never.<br> 相聚有時，後會無期。 ",
-    'Don’t let the past steal your present.<br> 只要開始，雖晚不遲。',
-    'Better late than never. <br>別讓過去悄悄偷走了你的當下。',
-    'Stars can’t shine without darkness.<br> 如果沒有黑暗，星星如何閃耀。',
-    'If you aim at the moon, even if you are lost, you will fall between the stars. <br>如果你瞄準月亮，即使迷失了，你仍會落在星河之間。',
-    'Without you, my life don’t know how to describe.<br> 沒有妳，我的生活不知道該怎樣去形容。',
-    'The darkness is no darkness with you. <br>有了妳，黑暗不再是黑暗。',
-    'Happiness can be found even in the darkest of times.<br> 即使在最黑暗的日子裡，也能尋到幸福。',
-    'Forget others’ faults by remembering your own. <br>想想自己的錯，會忘卻別人的過。',
-    'Fading is true while flowering is past. <br>凋謝是真實的，盛開只是一種過去',
-    'I don’t know what to say, I’m just thinking of you a lot at this moment. <br>我不知道該說什麼，只是突然在這一刻，很想妳。',
-    'To the world you may be just one person. To the person you may be the world.<br>對這世界來說，妳也許只是某個人；但對某個人來說，妳卻是全世界。',
-    'I’ll think of you every step of the way.<br> 我會想妳，在漫漫長路的每一步。',
-    'Passionate love is a quenchless thirst.<br> 熱烈的愛情是不可抑制的渴望。',
-    'Life is the flower for which love is the honey. <br>生命如花，愛情是蜜。',
-    'Love is not only a sentiment but also an art.<br> 愛情不僅僅是感情，它也是藝術。',
-    'Being with you is like walking on a very clear morning.<br> 和妳在一起就像在一個清爽的早晨漫步。',
-    'You are everything when you are with me, and everything is you when you are not.<br> 跟妳在一起時，妳是一切，妳不在時，一切是妳！',
-    'If i could rearrange the alphabet, i’d put y and i together. <br>如果我能重新排列字母，我要把y（妳）跟i（我）放在一起。',
-    'No words are necessary between two loving hearts.<br> 兩顆相愛的心之間不需要言語。',
-    'Every day without you is like a book without pages.<br> 沒有妳的日子就像一本沒有書頁的書。',
-	'I need you as I need the air to breathe.<br> 我需要妳，正如我需要呼吸空氣。',
-	
-]
-const randomMsg1 = msg[Math.floor(Math.random() * msg.length)];
-document.getElementById("msg").innerHTML = randomMsg1
+$(document).ready(function() {
+    $('#google-form').on('submit', function(event) {
+      if (this.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+  
+      $(this).addClass('was-validated');
+    });
+  
+    $('#send').on('input', function() {
+      if ($(this).is(':invalid')) {
+        $(this).addClass('is-invalid');
+      } else {
+        $(this).removeClass('is-invalid');
+      }
+    });
+  });
+
+$('#google-form').submit(function (e) {
+        e.preventDefault(); // 阻止表單的預設提交行為
+    
+        // 獲取表單資料
+        var formData = {
+        'entry.1145403706': $('#send').val() // 這裡的 entry.1234567890 要替換為你 Google 表單中對應的輸入欄位的 ID
+        };
+    
+        // Google 表單的網址
+        var googleFormURL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeyjVLSKfxMMmWldNmSUaA2JaFwWCnZ39lWimTzwYw60aVA2A/formResponse'; // 請將 your_form_id 替換為你 Google 表單的 ID
+    
+        // 使用 AJAX 發送資料到 Google 表單
+        $.ajax({
+        url: googleFormURL,
+        method: 'POST',
+        dataType: 'json',
+        data: formData,
+        complete: function () {
+            $('#google-form')[0].reset();
+            $('#google-form').removeClass('is-invalid');
+        },
+        success: function(response) {
+            // 成功處理後的動作
+            console.log('成功提交表單');
+        },
+        error: function(error) {
+            // 錯誤處理
+            console.error('提交表單失敗');
+            // 這裡可以加入錯誤發生時的處理
+        }
+        });
+    
+    });
