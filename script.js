@@ -19,8 +19,15 @@ $(document).ready(function() {
 
 $('#google-form').submit(function (e) {
         e.preventDefault(); // 阻止表單的預設提交行為
-    
-        
+		
+		var submitBtn = $('#button-addon2'); // 
+		
+		if (this.checkValidity() === false) {
+			e.stopPropagation();
+			$(this).addClass('was-validated');
+			return;
+		}
+		
         var formData = {
         'entry.1145403706': $('#send').val() 
         };
@@ -36,7 +43,11 @@ $('#google-form').submit(function (e) {
         data: formData,
         complete: function () {
             $('#google-form')[0].reset();
+			submitBtn.text('已傳送');
             $('#google-form').removeClass('is-invalid');
+			setTimeout(function() {
+					submitBtn.text('傳送');
+				}, 1000);
         },
         success: function(response) {
             console.log('成功提交表單');
