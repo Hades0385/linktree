@@ -47,7 +47,7 @@ $('#google-form').submit(function (e) {
             $('#google-form').removeClass('is-invalid');
 			setTimeout(function() {
 					submitBtn.text('傳送');
-				}, 1000);
+				}, 1500);
         },
         success: function(response) {
             console.log('成功提交表單');

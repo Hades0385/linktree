@@ -76,8 +76,9 @@ a:hover {
 
 .block {
     text-align: center;
-    background-color: #2d2f398e;
+    background-color: #4b4b4b60;
     padding: 30px;
+    backdrop-filter: blur(5px);
 }
 
 .info {
