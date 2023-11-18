@@ -4,6 +4,13 @@ const ap = new APlayer({
     listFolded: true,
     audio: [
             {
+                name:'恋ダコ',
+                artist: 'Lefty Hand Cream',
+                url: 'https://cdn.discordapp.com/attachments/875012646540283924/1175298316947431464/love_callus.mp3',
+                cover: 'https://www.uta-net.com/libs/cacheimg.php?p=kashi&f=330000/327169.jpg',
+                lrc: ''
+            },
+            {
                 name:'Wherever you are',
                 artist: 'cover by Kobasolo',
                 url: 'https://cdn.discordapp.com/attachments/875012646540283924/1109304959482208338/Wherever_you_are_Kobasolo_.mp3',
