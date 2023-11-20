@@ -58,3 +58,43 @@ $('#google-form').submit(function (e) {
         });
     
     });
+    /*=========*/
+
+const box = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-'}<~/#?{,{$](|=+[?@》⨋⩗⩎⨴⨷";
+const randomText = (amount) => {
+  var a = "";
+  for (var i = 0; i < amount; i++)
+    a += box[Math.floor(Math.random() * box.length)];
+  return a;
+};
+
+
+const decodeEffect = (target, targetText) => {
+
+  for (let j = 0; j <= targetText.length; j++) {
+    window.setTimeout(function () {
+      var current = j;
+      for (let k = 0; k <= 5; k++) {
+        window.setTimeout(function () {
+          var correct = targetText.slice(0, current); 
+          correct += randomText(targetText.length - current); 
+          target.innerText = correct; 
+        }, 50 * k); // 每隔50毫秒執行一次內層迴圈
+      }
+    }, 300 * j); // 每隔300毫秒執行一次外層迴圈
+  }
+};
+
+
+const targetElement = document.getElementById('decodedText');
+
+// 目標文字
+const targetText = "hex0xyz";
+
+
+decodeEffect(targetElement, targetText);
+
+
+setInterval(function() {
+    decodeEffect(targetElement, targetText);
+}, 5000); 
