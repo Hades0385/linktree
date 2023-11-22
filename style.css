@@ -49,6 +49,7 @@ body {
     background-position: center; /* Center the image */
     background-attachment: fixed;
     background-size: cover; /* Resize the background image to cover the entire container */
+    
 }
 
 a {
@@ -87,7 +88,7 @@ a:hover {
 }
 
 .profile {
-    margin-top: -60px;
+    margin-top: -50px;
 }
 
 .profile h1 {
@@ -95,8 +96,8 @@ a:hover {
 }
 
 .profile img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin: 0 1em;
 }
