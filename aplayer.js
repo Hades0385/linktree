@@ -4,6 +4,13 @@ const ap = new APlayer({
     listFolded: true,
     audio: [
             {
+                name:'僕は...',
+                artist: 'あたらよ',
+                url: 'https://cdn.discordapp.com/attachments/875012646540283924/1200619736002723990/ca4f6bc76bd6c02a.mp3',
+                cover: 'https://www.uta-net.com/libs/cacheimg.php?p=kashi&f=350000/348810.jpg',
+                lrc: '',
+            },
+            {
                 name:'恋ダコ',
                 artist: 'Lefty Hand Cream',
                 url: 'https://cdn.discordapp.com/attachments/875012646540283924/1175298316947431464/love_callus.mp3',

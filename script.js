@@ -97,4 +97,4 @@ decodeEffect(targetElement, targetText);
 
 setInterval(function() {
     decodeEffect(targetElement, targetText);
-}, 15000); 
+}, 30000); 
