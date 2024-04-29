@@ -2,7 +2,13 @@ const ap = new APlayer({
     container: document.getElementById('player'),
     //lrcType: 1,
     listFolded: true,
-    audio: [
+    audio: [{
+				name:'Anytime Anywhere',
+                artist: 'milet',
+                url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21392&authkey=!ABx8ywNwuLt4Zk8',
+                cover: 'https://p2.bahamut.com.tw/HOME/creationCover/98/0005796098.JPG?',
+                lrc: '',
+			},
             {
                 name:'僕は...',
                 artist: 'あたらよ',
