@@ -2,7 +2,15 @@ const ap = new APlayer({
     container: document.getElementById('player'),
     //lrcType: 1,
     listFolded: true,
-    audio: [{
+    audio: [
+			{
+				name:'Sunny',
+                artist: 'Yorushika',
+                url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21393&authkey=!ADIjDWvMGW7lXNY',
+                cover: 'https://i.kfs.io/album/global/265132635,0v1/fit/500x500.jpg',
+                lrc: '',
+			},
+			{
 				name:'Anytime Anywhere',
                 artist: 'milet',
                 url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21392&authkey=!ABx8ywNwuLt4Zk8',
