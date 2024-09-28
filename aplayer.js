@@ -6,18 +6,18 @@ const ap = new APlayer({
 			{
 				name:'Sunny',
                 artist: 'Yorushika',
-                url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21393&authkey=!ADIjDWvMGW7lXNY',
+                url: 'https://www.dropbox.com/scl/fi/zo8588uvatwwjj0frwz21/Sunny.mp3?rlkey=5c5xtkjv6hc1y68jk8wn57g1k&st=mf92wcpl&dl=1',
                 cover: 'https://i.kfs.io/album/global/265132635,0v1/fit/500x500.jpg',
                 lrc: '',
 			},
 			{
 				name:'Anytime Anywhere',
                 artist: 'milet',
-                url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21392&authkey=!ABx8ywNwuLt4Zk8',
+                url: 'https://www.dropbox.com/scl/fi/termwbqyawtvtgb5ve7ue/Anytime-Anywhere.mp3?rlkey=zrqpkjy8oh5xlusg37978ypjh&st=bxqp5z3n&dl=1',
                 cover: 'https://p2.bahamut.com.tw/HOME/creationCover/98/0005796098.JPG?',
                 lrc: '',
 			},
-            {
+            /*{
                 name:'僕は...',
                 artist: 'あたらよ',
                 url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21391&authkey=!ALJGvvjbx_uPedQ',
@@ -34,7 +34,7 @@ const ap = new APlayer({
             {
                 name:'Wherever you are',
                 artist: 'cover by Kobasolo',
-                url: 'https://onedrive.live.com/download?resid=8D6F18508FBC6D41%21390&authkey=!APBtDrxk2m6ehTM',
+                url: 'https://drive.google.com/uc?export=download&id=1eOBnzFCtgTcIwrXwOduMdiCJ5dmUxD82',
                 cover: 'https://i.kfs.io/album/tw/328901,0v3/fit/500x500.jpg',
                 lrc: '[00:00]曲名:Wherever you are[00:00.50]演唱者：ONE OK ROCK[00:01.00]作詞：Taka[00:01.50]作曲：Taka[00:02.00]Cover by Kobasolo & Lefty Hand Cream[00:02.96]I\'m telling you(我要跟妳說)[00:08.00]I softly whisper(讓我輕聲傾訴)[00:11.40]Tonight tonight(今晚，就在今晚)[00:19.10]You are my angel(妳是我的天使)[00:24.50]愛してるよ(我愛妳)[00:30.00]2人は一つに(兩個人合而為一)[00:34.10]Tonight tonight(今晚，就在今晚)[00:41.10]I just say…(我只是想說...)[00:44.30]Wherever you are,(無論妳在哪裡)[00:46.00]I\'ll always make you smile(我會永遠讓妳微笑)[00:50.00]Wherever you are,(無論妳在哪裡)[00:51.90]I\'m always by your side(我會永遠陪在妳身旁)[00:55.10]Whatever you say,君を思う 気持ち(無論妳說 妳的心意是什麼)[01:01.40]I promise you "forever" right now(我現在就對妳承諾『永遠』)[01:14.00]I don\'t need a reason(我不需要任何理由)[01:19.70]I just want you baby(我是真的需要妳 baby)[01:23.50]Alright alright(是的，沒錯)[01:30.70]Day after day(每日每夜)[01:36.00]この先長いことずっと(未來這漫長的路途)[01:41.50]どうかこんな僕とずっと(請和這樣的我一起)[01:45.50]死ぬまで stay with me(直到死亡來臨前 陪在我身邊好不好)[01:52.50]We carry on…(我們一起走下去...)[01:58.80]Wherever you are,(無論妳在哪裡)[02:00.30]I\'ll always make you smile(我會永遠讓妳微笑)[02:04.20]Wherever you are,(無論妳在哪裡)[02:06.10]I\'m always by your side(我會永遠陪在妳身旁)[02:09.90]Whatever you say,君を思う 気持ち(無論妳說 妳的心意是什麼)[02:15.70]I promise you "forever" right now(我現在就對妳承諾『永遠』)[02:20.70]Wherever you are,(無論妳在哪裡 )[02:22.50]I never make you cry(我絕不會讓你哭泣)[02:26.00]Wherever you are,(無論妳在哪裡)[02:27.90] I never say goodbye(我絕不會離開妳)[02:32.00]Whatever you say, 君を思う氣持ち(無論妳說 妳的心意是什麼)[02:37.90]I promise you "forever" right now(我現在就向妳承諾 直到永遠)[02:43.20]僕らが出逢った日は2人にとって(我們相遇的那天 )[02:48.30]一番目の記念すべき日だね(對兩人來說是最值得紀念的日子吧)[02:54.50]そして今日という日は2人にとって(而今天 對我們來說 )[03:00.00]二番目の記念すべき日だね(是第二個最值得紀念的日子 對吧)[03:32.80]心から愛しい人(打從心底去愛的人)[03:38.00]心から愛せる人(打從心裡愛著的人)[03:43.78]この僕の愛の真ん中には(因為住在我心底最深處)[03:49.90]いつも心(きみ)がいるから(始終都是你)[03:54.50]Wherever you are,(無論妳在哪裡)[03:56.30]I\'ll always make you smile(我會永遠讓妳微笑)[04:00.00]Wherever you are,(無論妳在哪裡)[04:01.80]I\'m always by your side(我會永遠陪在妳身旁)[04:05.88]Whatever you say,君を思う 気持ち(無論妳說 妳的心意是什麼)[04:11.70]I promise you "forever" right now(我現在就對妳承諾『永遠』)[04:22.00]Wherever you are(無論妳在哪裡)[04:28.00]Wherever you are(無論妳在哪裡)[04:34.00]翻譯/來源:https://youtu.be/l-XRDlV08Uw?list=RDl-XRDlV08Uw'
             },
@@ -45,7 +45,7 @@ const ap = new APlayer({
                 cover: 'https://linkstorage.linkfire.com/medialinks/images/d5b4bff0-75fe-4ca8-b57c-eebd88280754/artwork-440x440.jpg',
                 lrc: '[00:00]曲名:数センチメンタル(幾度感傷)\n[00:02]演唱者: こはならむ\n[00:04]作詞:タカノシンヤ・KERENMI\n[00:06]作曲：KERENMI\n[00:08]字幕 : 碧幻Bihuan / 翻譯 : Bass Punch\n[00:09.450]近づきそうな距離でも(即便距離看似近在咫尺)\n[00:13.058]わからなくなる夕暮れ(卻依舊無法理解的黃昏)\n[00:17.262]迷い込んでいる 迷路の(那使我逐漸迷失其中迷宮的)\n[00:21.262]出口はどこか(出口究竟在哪)\n[00:25.195]異常が日常になって(異常已儼然成為了日常)\n[00:27.439]反則だ　待て待て(犯規啊 等一下等一下)\n[00:29.564]別に どうでもいい(無所謂 反正跟我沒關係)\n[00:31.311]素直になれない(無法變得更坦白點)\n[00:34.119]いつまでも このままでいたいかも(一直以來總覺得 也許會這樣直到永遠)\n[00:38.034]そんな気持ちは溶けた(但那樣的情感早已煙消雲散)\n[00:42.536]僕らは探してた(我們所尋找的那)\n[00:46.826]お揃いの心を(靈犀相通的心)\n[00:50.651]僕らは交わしてた(我們彼此間所交換著的)\n[00:54.636]まとまらないセリフを(參差零亂的對白)\n[00:59.024]触れたい手の熱が(觸碰手心的熱量)\n[01:02.912]心まで届いて(直直傳達內心)\n[01:07.126]僕は背伸びしてた(我緩緩踮起腳尖)\n[01:11.075]大人びてる君を見て(看望著似已長高成人的你)\n[01:14.976]知りたいんだ(還想了解更多)\n[01:16.904]君のこと(有關你的事)\n[01:18.693]近づきたくて(想再靠的近一點)\n[01:20.701]夢じゃ足りなくて(若只是夢的話還不夠啊)\n[01:22.603]心が痛くて(心有點痛啊)\n[01:25.085]もっと(再更多一些啊)\n[01:36.157]自覚芽生えそうかも(自我意識中好像萌生了甚麼)\n[01:40.263]わかりかけてきてる(似懂又非懂般)\n[01:44.765]迷い込んでいる迷路に日差しがさした(陽光照入了那使我迷失方向的迷宮)\n[01:52.627]自分はどうしたいんだっけ(自己究竟想做些甚麼)\n[01:54.696]気持ちの持ちようだって(心中該抱持著些甚麼想法)\n[01:56.96]記憶のかけらを拾い集めてた(蒐集撿起那散落的記憶碎片)\n[02:01.388]いつまでもこのままでいちゃダメだ(才發現到這樣繼續下去是行不通的)\n[02:05.153]時計の針進めた(時鐘的指針不斷前擺)\n[02:12.00]僕らは探してた(我們所尋找的那)\n[02:16.091]お揃いの心を(靈犀相通的心)\n[02:20.336]僕らは交わしてた(我們彼此間所交換著的)\n[02:24.262]まとまらないセリフを(參差零亂的對白)\n[02:28.369]重ねた手の熱が(重疊手心的熱量)\n[02:32.526]心まで届いて(直直傳達內心)\n[02:36.47]僕ら駆け出してた(我們盡情的奔馳著)\n[02:40.577]茜色の空を背に(背向那茜紅浸染的天空)\n[02:44.52]知りたいんだ(還想知道更多)\n[02:46.305]この先も(從此以後)\n[02:48.25]近づきたくて(想再靠的近一點)\n[02:50.212]夢じゃ足りなくて(若只是夢的話還不夠啊)\n[02:52.184]心が痛くて(心有點痛啊)\n[02:54.719]もっと(想再多一些)\n[02:56.23]近づきたくて(想再靠的近一點)\n[02:58.38]近くにいたくて(只想你待在身旁)\n[03:00.347]心が見たくて(想要一窺你的內心)\n[03:02.758]もっと(想再多一些)\n[03:04.384]言葉にしたくて(全化作言語傾訴)\n[03:07.082]字幕 : 碧幻Bihuan / 翻譯 : Bass Punch\n[03:08.418]來源:https://youtu.be/cjkkFFF2N0k'
             },
-          /*{
+          {
                 name:'小さな恋のうた Piano ver',
                 artist: '椎名真昼',
                 url: 'https://cdn.discordapp.com/attachments/875012646540283924/1094085096803414036/Little_Love_Song.mp3?ex=65f502a6&is=65e28da6&hm=48cc5694247c67072baa70daef03a8f951a7f6da5760b30ba3fd3e2d45d78bbf&',
