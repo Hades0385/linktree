@@ -44,7 +44,7 @@ body {
     font-family: sans-serif;
     display: block;
     /* background */
-    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65) 0%, rgba(37, 37, 37, 0.65) 100%), url(https://bing.img.run/rand.php); /* The image used for background*/
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65) 0%, rgba(37, 37, 37, 0.65) 100%), url(https://api.xsot.cn/bing?jump=true); /* The image used for background*/
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center; /* Center the image */
     background-attachment: fixed;
@@ -391,6 +391,7 @@ a.link:hover {
     animation: rl-slow 3s infinite ease-in-out;
   }
   
+
   
   
   
