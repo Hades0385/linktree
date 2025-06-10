@@ -3,6 +3,13 @@ const ap = new APlayer({
     //lrcType: 1,
     listFolded: true,
     audio: [
+            {
+                name:'Prologue',
+                artist: 'Yuika',
+                url: 'https://www.dropbox.com/scl/fi/bana9ibtrcgwb46cgrh99/prologue.mp3?rlkey=zy3v5up1dbfx8rta30y275c4p&st=sefg4ewp&dl=1',
+                cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/8d/7e/f78d7efe-36ca-462c-e19f-0385d790757e/23UMGIM09887.rgb.jpg/600x600bf-60.jpg',
+                lrc: '',
+            },
 			{
 				name:'Sunny',
                 artist: 'Yorushika',
@@ -13,7 +20,7 @@ const ap = new APlayer({
 			{
 				name:'Anytime Anywhere',
                 artist: 'milet',
-                url: 'https://www.dropbox.com/scl/fi/termwbqyawtvtgb5ve7ue/Anytime-Anywhere.mp3?rlkey=zrqpkjy8oh5xlusg37978ypjh&st=bxqp5z3n&dl=1',
+                url: 'https://www.dropbox.com/scl/fi/termwbqyawtvtgb5ve7ue/Anytime-Anywhere.mp3?rlkey=zrqpkjy8oh5xlusg37978ypjh&st=ssvcvr4i&dl=1',
                 cover: 'https://p2.bahamut.com.tw/HOME/creationCover/98/0005796098.JPG?',
                 lrc: '',
 			},
